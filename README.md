@@ -18,7 +18,7 @@ A React.js application integrated with Firebase for authentication (Google, Appl
 
 ## Demo
 
-🌐 Live URL:  [Live URL](https://twitter-login-clone-78148.web.app/)
+🌐 [Live Demo](https://twitter-login-clone-78148.web.app/)
 
 
 ## Tech Stack
