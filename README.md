@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Login Clone - React JS, Firebase Authentication and hosting
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React.js application integrated with Firebase for authentication (Google, Apple, Email, Phone, Username) and hosted on Firebase Hosting.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Firebase Authentication**  
+  - Google Sign-In  
+  - Apple Sign-In  
+  - Email & Password  
+  - Phone Number  
+  - Username support  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Built with **React.js**  
+- Deployed on **Firebase Hosting**  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🌐 Live URL:  [Live URL](https://twitter-login-clone-78148.web.app/)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend:** React.js, HTML, CSS, JavaScript  
+- **Backend & Auth:** Firebase Authentication  
+- **Hosting:** Firebase Hosting  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Navigate into the project folder
+```bash
+cd your-repo
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Install dependencies:
+```bash
+npm install
+```
 
-## Learn More
+## Environment Variables
+Create a .env file in the root of your project and add your Firebase configuration:
+```bash
+REACT_APP_API_KEY=your_api_key
+REACT_APP_AUTH_DOMAIN=your_auth_domain
+REACT_APP_PROJECT_ID=your_project_id
+REACT_APP_STORAGE_BUCKET=your_storage_bucket
+REACT_APP_MESSAGING_SENDER_ID=your_messaging_sender_id
+REACT_APP_APP_ID=your_app_id
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+### 1. Start the development server:
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2. Open in your browser.
 
-### Analyzing the Bundle Size
+You can log in using Google, Apple, or email/phone/username.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Build the project:
+```bash
+npm run build
+```
 
-### Advanced Configuration
+### Deploy to Firebase Hosting:
+```bash
+firebase deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Screenshots
 
-### Deployment
+<img width="350" height="510" alt="Screenshot 2025-09-17 003432" src="https://github.com/user-attachments/assets/ba69ea26-85c9-43db-85cd-98903fb9d308" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<img width="350" height="440" alt="Screenshot 2025-09-17 003449" src="https://github.com/user-attachments/assets/051e601e-dfb4-4c30-b72c-15d1ed562731" />
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="500" height="465" alt="Screenshot 2025-09-17 004506" src="https://github.com/user-attachments/assets/4ee22186-bbac-4764-9a04-f8a554e9a6b7" />
